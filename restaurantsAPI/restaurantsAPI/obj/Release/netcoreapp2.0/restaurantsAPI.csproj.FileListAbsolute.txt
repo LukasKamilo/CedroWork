@@ -1,0 +1,10 @@
+E:\CEDRO\Avaliação Prática\restaurantsAPI\restaurantsAPI\bin\Release\netcoreapp2.0\restaurantsAPI.deps.json
+E:\CEDRO\Avaliação Prática\restaurantsAPI\restaurantsAPI\bin\Release\netcoreapp2.0\restaurantsAPI.runtimeconfig.json
+E:\CEDRO\Avaliação Prática\restaurantsAPI\restaurantsAPI\bin\Release\netcoreapp2.0\restaurantsAPI.runtimeconfig.dev.json
+E:\CEDRO\Avaliação Prática\restaurantsAPI\restaurantsAPI\bin\Release\netcoreapp2.0\restaurantsAPI.dll
+E:\CEDRO\Avaliação Prática\restaurantsAPI\restaurantsAPI\bin\Release\netcoreapp2.0\restaurantsAPI.pdb
+E:\CEDRO\Avaliação Prática\restaurantsAPI\restaurantsAPI\obj\Release\netcoreapp2.0\restaurantsAPI.csproj.CoreCompileInputs.cache
+E:\CEDRO\Avaliação Prática\restaurantsAPI\restaurantsAPI\obj\Release\netcoreapp2.0\restaurantsAPI.AssemblyInfoInputs.cache
+E:\CEDRO\Avaliação Prática\restaurantsAPI\restaurantsAPI\obj\Release\netcoreapp2.0\restaurantsAPI.AssemblyInfo.cs
+E:\CEDRO\Avaliação Prática\restaurantsAPI\restaurantsAPI\obj\Release\netcoreapp2.0\restaurantsAPI.dll
+E:\CEDRO\Avaliação Prática\restaurantsAPI\restaurantsAPI\obj\Release\netcoreapp2.0\restaurantsAPI.pdb

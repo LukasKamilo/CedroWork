@@ -1,0 +1,55 @@
+<!--FILTROS-->
+<div class="panel">
+  <header class="panel-heading">
+    <h4 class="accordion-toggle" data-toggle="collapse" href="#divCollapseFilter" aria-expanded="true">Filtros</h4>
+    <div class="top-nav">
+      <button class="btn btn_success" routerLink="/restaurant/new">Novo</button>
+      <button class="btn btn_default" (click)="searchRestaurant()">Perquisar</button>
+    </div>
+  </header>
+  <div id="divCollapseFilter" class="panel-collpse collapse show">
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-sm-6">
+          <label class="control-label">Nome</label>
+          <input type="text" [(ngModel)]="nameFilter" class="form-control" />
+        </div>
+      </div>
+    </div>	
+  </div>
+</div>
+
+<!--RESULTADO-->
+<div class="panel" *ngIf="mostrarTemplateResultado">
+    <header class="panel-heading">
+      <h4 class="accordion-toggle" data-toggle="collapse" href="#divCollapseBody" aria-expanded="true">Resultado</h4>
+    </header>
+    <div id="divCollapseBody" class="panel-collapse collapse show">
+      <div class="panel-body">
+        <div class="table-responsive">
+          <table class="table table-stripped table-hover table-bordered table-sm">
+            <thead>
+              <tr>
+                <th class="th70px"></th>
+                <th>Restaurantes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let item of restaurants" >
+                <td style="text-align: center">
+                    <a [routerLink]="['/restaurantEdit', item.id]" title="Editar">
+                      <i class="fa fa-edit"></i>
+                    </a>
+                    &nbsp;
+                    <a (click)="deleteRestaurant(item.id)" title="Remover">
+                      <i class="fa fa-remove"></i>
+                    </a>
+                </td>
+                <td>{{ item.name }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+</div>

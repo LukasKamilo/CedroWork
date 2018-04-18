@@ -1,0 +1,30 @@
+<div class="panel">
+  <header class="panel-heading">
+    <h4 class="accordion-toggle" data-toggle="collapse" href="#divCollapse" aria-expanded="true">{{ title }}</h4>
+    <div class="top-nav">
+      <button class="btn btn_success" (click)="save()">Salvar</button>
+      <button class="btn btn_danger" routerLink="/dish">Cancelar</button>
+    </div>
+  </header>
+  <div id="divCollapse" class="panel-collpse collapse show">
+    <div class="panel-body">
+        <input type="hidden" id="id" [(ngModel)]="dish.id" /> 
+      <div class="row">
+        <div class="col-sm-4" style="display: inline-grid">
+            <label class="control-label">Restaurante</label>
+            <select [(ngModel)]="dish.restaurantId">
+                <option *ngFor="let restaurant of restaurants" [ngValue]="restaurant.id">{{restaurant.name}}</option>
+            </select>
+        </div>
+        <div class="col-sm-4">
+          <label class="control-label">Nome prato</label>
+          <input id="dishName" [(ngModel)]="dish.dishName" type="text" class="form-control" />
+        </div>
+        <div class="col-sm-4">
+          <label class="control-label">Preço prato</label>
+          <input id="dishPrice" [(ngModel)]="dish.dishPrice" type="text" class="form-control maskMoney" />
+        </div>
+      </div>
+    </div>	
+  </div>
+</div>

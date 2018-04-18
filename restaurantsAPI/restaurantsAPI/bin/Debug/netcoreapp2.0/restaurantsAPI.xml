@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>restaurantsAPI</name>
+    </assembly>
+    <members>
+        <member name="M:restaurantsAPI.Controllers.DishesController.GetDishs(System.String)">
+            <summary>
+            Retorna uma lista de pratos
+            </summary>
+            <remarks>
+            Retorna uma lista de pratos
+            </remarks>
+            <returns></returns>
+            [HttpGet]
+        </member>
+        <member name="M:restaurantsAPI.Controllers.DishesController.GetDish(System.Int32)">
+            <summary>
+            Retorna um prato
+            </summary>
+            <remarks>
+            Retorna um prato
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:restaurantsAPI.Controllers.DishesController.PutDish(restaurantsAPI.Models.Dish)">
+            <summary>
+            Atualiza um prato na base de dados
+            </summary>
+            <remarks>
+            Atualiza um prato na base de dados
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:restaurantsAPI.Controllers.DishesController.PostDish(restaurantsAPI.Models.Dish)">
+            <summary>
+            Insere um prato na base de dados
+            </summary>
+            <remarks>
+            Insere um prato na base de dados
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:restaurantsAPI.Controllers.DishesController.DeleteDish(System.Int32)">
+            <summary>
+            Remove um prato na base de dados
+            </summary>
+            <remarks>
+            Remove um prato na base de dados
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:restaurantsAPI.Controllers.RestaurantsController.GetRestaurants(System.String)">
+            <summary>
+            Retorna uma lista de restaurantes
+            </summary>
+            <remarks>
+            Retorna uma lista de restaurantes
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:restaurantsAPI.Controllers.RestaurantsController.GetRestaurant(System.Nullable{System.Int32})">
+            <summary>
+            Retorna um restaurante
+            </summary>
+            <remarks>
+            Retorna um restaurante
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:restaurantsAPI.Controllers.RestaurantsController.PutRestaurant(restaurantsAPI.Models.Restaurant)">
+            <summary>
+            Atualiza restaurante na base de dados
+            </summary>
+            <remarks>
+            Atualiza restaurante na base de dados
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:restaurantsAPI.Controllers.RestaurantsController.PostRestaurant(restaurantsAPI.Models.Restaurant)">
+            <summary>
+            Insere um restaurante na base de dados
+            </summary>
+            <remarks>
+            Insere um restaurante na base de dados
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:restaurantsAPI.Controllers.RestaurantsController.DeleteRestaurant(System.Int32)">
+            <summary>
+            Remove restaurante na base de dados
+            </summary>
+            <remarks>
+            Remove restaurante na base de dados
+            </remarks>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

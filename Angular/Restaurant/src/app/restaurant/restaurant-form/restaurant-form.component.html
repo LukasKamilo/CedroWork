@@ -1,0 +1,20 @@
+<div class="panel">
+  <header class="panel-heading">
+    <h4 class="accordion-toggle" data-toggle="collapse" href="#divCollapse" aria-expanded="true">{{ title }}</h4>
+    <div class="top-nav">
+      <button class="btn btn_success" (click)="save()">Salvar</button>
+      <button class="btn btn_danger" routerLink="/restaurant">Cancelar</button>
+    </div>
+  </header>
+  <div id="divCollapse" class="panel-collpse collapse show">
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-sm-6">
+          <label class="control-label">Nome</label>
+          <input id="name" [(ngModel)]="restaurant.name" type="text" class="form-control" />
+          <input type="hidden" id="id" [(ngModel)]="restaurant.id" /> 
+        </div>
+      </div>
+    </div>	
+  </div>
+</div>
